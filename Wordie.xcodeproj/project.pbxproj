@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92043C37263A4D9E008A0748 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92043C36263A4D9E008A0748 /* AppDelegate.m */; };
+		92043C3A263A4D9E008A0748 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92043C39263A4D9E008A0748 /* SceneDelegate.m */; };
+		92043C3D263A4D9E008A0748 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92043C3C263A4D9E008A0748 /* ViewController.m */; };
+		92043C40263A4D9E008A0748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92043C3E263A4D9E008A0748 /* Main.storyboard */; };
+		92043C42263A4D9F008A0748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92043C41263A4D9F008A0748 /* Assets.xcassets */; };
+		92043C45263A4D9F008A0748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92043C43263A4D9F008A0748 /* LaunchScreen.storyboard */; };
+		92043C48263A4D9F008A0748 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92043C47263A4D9F008A0748 /* main.m */; };
+		92043C52263A4D9F008A0748 /* WordieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92043C51263A4D9F008A0748 /* WordieTests.m */; };
+		92043C5D263A4D9F008A0748 /* WordieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92043C5C263A4D9F008A0748 /* WordieUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92043C4E263A4D9F008A0748 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92043C2A263A4D9E008A0748 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92043C31263A4D9E008A0748;
+			remoteInfo = Wordie;
+		};
+		92043C59263A4D9F008A0748 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92043C2A263A4D9E008A0748 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92043C31263A4D9E008A0748;
+			remoteInfo = Wordie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92043C32263A4D9E008A0748 /* Wordie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wordie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92043C35263A4D9E008A0748 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		92043C36263A4D9E008A0748 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		92043C38263A4D9E008A0748 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		92043C39263A4D9E008A0748 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		92043C3B263A4D9E008A0748 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		92043C3C263A4D9E008A0748 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		92043C3F263A4D9E008A0748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92043C41263A4D9F008A0748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92043C44263A4D9F008A0748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92043C46263A4D9F008A0748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92043C47263A4D9F008A0748 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92043C4D263A4D9F008A0748 /* WordieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92043C51263A4D9F008A0748 /* WordieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordieTests.m; sourceTree = "<group>"; };
+		92043C53263A4D9F008A0748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92043C58263A4D9F008A0748 /* WordieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92043C5C263A4D9F008A0748 /* WordieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordieUITests.m; sourceTree = "<group>"; };
+		92043C5E263A4D9F008A0748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92043C2F263A4D9E008A0748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92043C4A263A4D9F008A0748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92043C55263A4D9F008A0748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92043C29263A4D9E008A0748 = {
+			isa = PBXGroup;
+			children = (
+				92043C34263A4D9E008A0748 /* Wordie */,
+				92043C50263A4D9F008A0748 /* WordieTests */,
+				92043C5B263A4D9F008A0748 /* WordieUITests */,
+				92043C33263A4D9E008A0748 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92043C33263A4D9E008A0748 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92043C32263A4D9E008A0748 /* Wordie.app */,
+				92043C4D263A4D9F008A0748 /* WordieTests.xctest */,
+				92043C58263A4D9F008A0748 /* WordieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92043C34263A4D9E008A0748 /* Wordie */ = {
+			isa = PBXGroup;
+			children = (
+				92043C35263A4D9E008A0748 /* AppDelegate.h */,
+				92043C36263A4D9E008A0748 /* AppDelegate.m */,
+				92043C38263A4D9E008A0748 /* SceneDelegate.h */,
+				92043C39263A4D9E008A0748 /* SceneDelegate.m */,
+				92043C3B263A4D9E008A0748 /* ViewController.h */,
+				92043C3C263A4D9E008A0748 /* ViewController.m */,
+				92043C3E263A4D9E008A0748 /* Main.storyboard */,
+				92043C41263A4D9F008A0748 /* Assets.xcassets */,
+				92043C43263A4D9F008A0748 /* LaunchScreen.storyboard */,
+				92043C46263A4D9F008A0748 /* Info.plist */,
+				92043C47263A4D9F008A0748 /* main.m */,
+			);
+			path = Wordie;
+			sourceTree = "<group>";
+		};
+		92043C50263A4D9F008A0748 /* WordieTests */ = {
+			isa = PBXGroup;
+			children = (
+				92043C51263A4D9F008A0748 /* WordieTests.m */,
+				92043C53263A4D9F008A0748 /* Info.plist */,
+			);
+			path = WordieTests;
+			sourceTree = "<group>";
+		};
+		92043C5B263A4D9F008A0748 /* WordieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92043C5C263A4D9F008A0748 /* WordieUITests.m */,
+				92043C5E263A4D9F008A0748 /* Info.plist */,
+			);
+			path = WordieUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92043C31263A4D9E008A0748 /* Wordie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92043C61263A4D9F008A0748 /* Build configuration list for PBXNativeTarget "Wordie" */;
+			buildPhases = (
+				92043C2E263A4D9E008A0748 /* Sources */,
+				92043C2F263A4D9E008A0748 /* Frameworks */,
+				92043C30263A4D9E008A0748 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wordie;
+			productName = Wordie;
+			productReference = 92043C32263A4D9E008A0748 /* Wordie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92043C4C263A4D9F008A0748 /* WordieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92043C64263A4D9F008A0748 /* Build configuration list for PBXNativeTarget "WordieTests" */;
+			buildPhases = (
+				92043C49263A4D9F008A0748 /* Sources */,
+				92043C4A263A4D9F008A0748 /* Frameworks */,
+				92043C4B263A4D9F008A0748 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92043C4F263A4D9F008A0748 /* PBXTargetDependency */,
+			);
+			name = WordieTests;
+			productName = WordieTests;
+			productReference = 92043C4D263A4D9F008A0748 /* WordieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92043C57263A4D9F008A0748 /* WordieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92043C67263A4D9F008A0748 /* Build configuration list for PBXNativeTarget "WordieUITests" */;
+			buildPhases = (
+				92043C54263A4D9F008A0748 /* Sources */,
+				92043C55263A4D9F008A0748 /* Frameworks */,
+				92043C56263A4D9F008A0748 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92043C5A263A4D9F008A0748 /* PBXTargetDependency */,
+			);
+			name = WordieUITests;
+			productName = WordieUITests;
+			productReference = 92043C58263A4D9F008A0748 /* WordieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92043C2A263A4D9E008A0748 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					92043C31263A4D9E008A0748 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					92043C4C263A4D9F008A0748 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 92043C31263A4D9E008A0748;
+					};
+					92043C57263A4D9F008A0748 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 92043C31263A4D9E008A0748;
+					};
+				};
+			};
+			buildConfigurationList = 92043C2D263A4D9E008A0748 /* Build configuration list for PBXProject "Wordie" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92043C29263A4D9E008A0748;
+			productRefGroup = 92043C33263A4D9E008A0748 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92043C31263A4D9E008A0748 /* Wordie */,
+				92043C4C263A4D9F008A0748 /* WordieTests */,
+				92043C57263A4D9F008A0748 /* WordieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92043C30263A4D9E008A0748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92043C45263A4D9F008A0748 /* LaunchScreen.storyboard in Resources */,
+				92043C42263A4D9F008A0748 /* Assets.xcassets in Resources */,
+				92043C40263A4D9E008A0748 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92043C4B263A4D9F008A0748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92043C56263A4D9F008A0748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92043C2E263A4D9E008A0748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92043C3D263A4D9E008A0748 /* ViewController.m in Sources */,
+				92043C37263A4D9E008A0748 /* AppDelegate.m in Sources */,
+				92043C48263A4D9F008A0748 /* main.m in Sources */,
+				92043C3A263A4D9E008A0748 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92043C49263A4D9F008A0748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92043C52263A4D9F008A0748 /* WordieTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92043C54263A4D9F008A0748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92043C5D263A4D9F008A0748 /* WordieUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92043C4F263A4D9F008A0748 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92043C31263A4D9E008A0748 /* Wordie */;
+			targetProxy = 92043C4E263A4D9F008A0748 /* PBXContainerItemProxy */;
+		};
+		92043C5A263A4D9F008A0748 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92043C31263A4D9E008A0748 /* Wordie */;
+			targetProxy = 92043C59263A4D9F008A0748 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92043C3E263A4D9E008A0748 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92043C3F263A4D9E008A0748 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92043C43263A4D9F008A0748 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92043C44263A4D9F008A0748 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92043C5F263A4D9F008A0748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		92043C60263A4D9F008A0748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92043C62263A4D9F008A0748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8L83CZ8839;
+				INFOPLIST_FILE = Wordie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jerry-lai.Wordie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92043C63263A4D9F008A0748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8L83CZ8839;
+				INFOPLIST_FILE = Wordie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jerry-lai.Wordie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92043C65263A4D9F008A0748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8L83CZ8839;
+				INFOPLIST_FILE = WordieTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jerry-lai.WordieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wordie.app/Wordie";
+			};
+			name = Debug;
+		};
+		92043C66263A4D9F008A0748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8L83CZ8839;
+				INFOPLIST_FILE = WordieTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jerry-lai.WordieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wordie.app/Wordie";
+			};
+			name = Release;
+		};
+		92043C68263A4D9F008A0748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8L83CZ8839;
+				INFOPLIST_FILE = WordieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jerry-lai.WordieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wordie;
+			};
+			name = Debug;
+		};
+		92043C69263A4D9F008A0748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8L83CZ8839;
+				INFOPLIST_FILE = WordieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jerry-lai.WordieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wordie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92043C2D263A4D9E008A0748 /* Build configuration list for PBXProject "Wordie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92043C5F263A4D9F008A0748 /* Debug */,
+				92043C60263A4D9F008A0748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92043C61263A4D9F008A0748 /* Build configuration list for PBXNativeTarget "Wordie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92043C62263A4D9F008A0748 /* Debug */,
+				92043C63263A4D9F008A0748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92043C64263A4D9F008A0748 /* Build configuration list for PBXNativeTarget "WordieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92043C65263A4D9F008A0748 /* Debug */,
+				92043C66263A4D9F008A0748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92043C67263A4D9F008A0748 /* Build configuration list for PBXNativeTarget "WordieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92043C68263A4D9F008A0748 /* Debug */,
+				92043C69263A4D9F008A0748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92043C2A263A4D9E008A0748 /* Project object */;
+}
